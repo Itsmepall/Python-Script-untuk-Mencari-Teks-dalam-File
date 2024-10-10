@@ -9,7 +9,7 @@ def search_in_file(file_path, keyword):
                     return True
 
         return False
-except Exception as e:
+    except Exception as e:
         print(f"Error membaca file {file_path}: {e}")
         return False
 
